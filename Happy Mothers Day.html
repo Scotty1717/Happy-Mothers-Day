@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Mother's Day!</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #fff0f5;
+      color: #9b0000;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.2em;
+    }
+    .heart {
+      font-size: 2em;
+      color: #e60073;
+    }
+    .hidden-message {
+      display: none;
+      margin-top: 20px;
+      font-size: 1.2em;
+      color: #4b0082;
+    }
+    button {
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1em;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 30px;
+    }
+    button:hover {
+      background-color: #ff85c1;
+    }
+	
+  </style>
+</head>
+
+<body>
+
+  <h1>Happy Mother's Day!</h1>
+  <p class="heart">You are loved more than words can say.<br>
+  I hope you love what I have put together.</p>
+
+  <button onclick="showMessage()">Click for a Surprise</button>
+
+  <div class="hidden-message" id="surpriseMessage">
+    <p style="font-family: 'Dancing script', cursive;"Thank you for everything, Mom! <br>
+    Your love, strength, and kindness inspire me every single day. <br>
+    I love you forever and always!<br>
+	Thank you for everything you have givn me and provided for me and supported me constantlly throughout. <br>
+	You are the rock of our house and such a strong yet gentle person that I am so blessed to call my mom. <br>
+	God bless and I hope you have a wonderful day and I hope its a spoilt one.<br>
+	thank you for always being there for me and thank you for continuing to be there for me.<br>
+	God has blessed you in so many ways and i pray He continues to bless the wonderful God-centered person you are.<br>
+	Thank you for you mom <3.
+	
+	
+	<br>
+	<img src="Mom.jpg" width="400" >
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("surpriseMessage").style.display = "block";
+    }
+  </script>
+
+</body>
+
+</html>
